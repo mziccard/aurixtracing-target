@@ -57,7 +57,7 @@ beginning of the *SECTIONS* part of the linker script.
 
 ```
 .TRACE_BUFFER : { 
- \*(.TRACE_BUFFER .TRACE_BUFFER.\*) 
+ *(.TRACE_BUFFER .TRACE_BUFFER.*) 
 } > DMI_DSPR
 ```
 
